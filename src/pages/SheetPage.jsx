@@ -9,7 +9,7 @@ function SheetPage() {
   const [title, setTitle] = useState("");
 
   // TODO: Replace with your actual API endpoint
-  const API_URL = import.meta.env.API_URL;
+  const API_URL = import.meta.env.VITE_API_URL;
 
   const sensors = useSensors(
     useSensor(PointerSensor),
