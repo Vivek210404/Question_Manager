@@ -1,16 +1,71 @@
-# React + Vite
+#  Interactive Question Management Sheet
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, interactive web application for managing and organizing coding practice questions.  
+This app helps you structure questions by **topics** and **sub-topics**, track progress, and reorder items using **drag-and-drop** functionality.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Features
 
-## React Compiler
+-  **Topic Management**  
+  Create, edit, and delete topics easily
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+-  **Sub-topic Organization**  
+  Organize questions under structured sub-topics
 
-## Expanding the ESLint configuration
+-  **Progress Tracking**  
+  Mark questions as solved and monitor your progress
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-  **Drag & Drop Support**  
+  Reorder topics, sub-topics, and questions seamlessly
+
+-  **Local Storage Persistence**  
+  Data is automatically saved in the browser
+
+-  **API Integration**  
+  Fetch question sheets from external API endpoints
+
+-  **Modern UI**  
+  Clean, responsive interface built with Tailwind CSS
+
+---
+
+##  Tech Stack
+
+- **React 19** – UI library  
+- **Vite** – Build tool & development server  
+- **Zustand** – State management  
+- **@dnd-kit** – Drag and drop functionality  
+- **Tailwind CSS** – Styling  
+- **Axios** – HTTP client  
+
+---
+
+##  Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Vivek210404/Question_Manager
+   cd Question_Manager
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+---
+
+##  Running the Application
+
+### Development Mode
+
+Start the development server:
+```bash
+npm run dev
+```
+
+The app will be available at:  
+ `http://localhost:5173` 
+
+---
